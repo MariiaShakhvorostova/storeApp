@@ -1,0 +1,209 @@
+.cont {
+  padding: 0 21%;
+  padding-top: 30px;
+}
+
+.icon-sum {
+  background-image: url(/src/assets/img/big-bird.png);
+  width: 80px;
+  height: 80px;
+  position: relative;
+  margin: auto;
+  padding-bottom: 10px;
+  background-repeat: no-repeat;
+}
+
+.thanks {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.order {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.36px;
+  letter-spacing: -0.26124143600463867px;
+  text-align: center;
+}
+
+.p-conf {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.36px;
+  letter-spacing: -0.26124143600463867px;
+  text-align: center;
+  color: rgba(36, 53, 115, 1);
+}
+
+.your-ord {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19.36px;
+  letter-spacing: -0.26124143600463867px;
+  text-align: center;
+  color: rgba(36, 53, 115, 1);
+}
+
+.order-date {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.36px;
+  letter-spacing: -0.26124143600463867px;
+  text-align: center;
+  color: rgba(115, 115, 115, 1);
+}
+
+.cont-ship {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 40px;
+}
+
+.p-icon {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding-left: 10px;
+}
+
+.icon-pers {
+  background-repeat: no-repeat;
+  background-image: url(/src/assets/img/ic-pers.png);
+  width: 16px;
+  height: 16px;
+}
+
+.contacts,
+.shipments {
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.1);
+  background: rgba(255, 255, 255, 1);
+  width: 465px;
+  height: 114px;
+  top: 387px;
+  left: 240px;
+  gap: 0px;
+  border-radius: 8px;
+  opacity: 0px;
+}
+
+.cont-int {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.36px;
+  letter-spacing: -0.26124143600463867px;
+  text-align: left;
+  color: rgba(0, 0, 0, 1);
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+
+.names {
+  margin: 0px;
+}
+
+.inf-cont {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19.36px;
+  letter-spacing: -0.26124143600463867px;
+  text-align: left;
+  color: rgba(36, 53, 115, 1);
+}
+
+.icon-bus {
+  background-repeat: no-repeat;
+  background-image: url(/src/assets/img/Icon-bus.png);
+  width: 16px;
+  height: 16px;
+}
+
+.grey-line {
+  width: calc(100% - 35px);
+  height: 0px;
+  border: 1px solid rgba(200, 200, 200, 1);
+  margin: 0 15px;
+}
+
+.icon-i {
+  background-repeat: no-repeat;
+  background-image: url(/src/assets/img/let-i.png);
+  width: 16px;
+  height: 16px;
+}
+
+.order-cart {
+  margin-top: 25px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.1);
+  background: rgba(255, 255, 255, 1);
+  border-radius: 8px;
+  display: grid;
+  justify-content: left;
+  grid-template-columns: 1fr;
+  overflow: hidden;
+}
+
+.order-item {
+  width: 100%;
+  display: grid;
+  align-items: center;
+  grid-template-columns: auto 1fr;
+  justify-content: space-between;
+}
+
+.order-item img {
+  width: 90px;
+  height: 90px;
+  margin: 15px;
+}
+
+.price-quan {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.price-tit-quan {
+  flex-grow: 1;
+}
+
+.order-total {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24.2px;
+  letter-spacing: -0.26124143600463867px;
+  text-align: left;
+  margin: 15px;
+}
+
+.grand-total {
+  font-weight: 700;
+}
+
+.shipping-handling {
+  margin: 10px 0 10px 0;
+}
+
+.add {
+  margin: 60px 0 60px 0;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: -0.30000001192092896px;
+  text-align: right;
+  padding: 12px 61px 0px 54px;
+}

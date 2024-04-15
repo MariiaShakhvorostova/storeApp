@@ -1,0 +1,117 @@
+h2 {
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 38.73px;
+  letter-spacing: -0.26124143600463867px;
+  text-align: left;
+  color: rgba(36, 53, 115, 1);
+}
+
+.cont {
+  padding: 0 10%;
+  background-color: rgba(242, 245, 247, 1);
+  overflow: hidden;
+}
+
+form label {
+  font-family: Inter;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 12px;
+  letter-spacing: -0.20000000298023224px;
+  text-align: left;
+  color: rgba(36, 53, 115, 1);
+}
+
+input::placeholder {
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: -0.30000001192092896px;
+  text-align: left;
+  border: none;
+  width: 300px;
+  height: 40px;
+}
+
+input {
+  border: none;
+  background: transparent;
+}
+
+.contact-container {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  width: 960px;
+  height: 176px;
+  border-radius: 8px;
+  opacity: 0px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.1);
+  background: rgba(255, 255, 255, 1);
+  margin-bottom: 40px;
+}
+
+.containers {
+  display: grid;
+  width: 300px;
+  height: 40px;
+  margin: 30px;
+  gap: 0px;
+  border-radius: 8px 0px 0px 8px;
+  opacity: 0px;
+}
+
+.contact-line {
+  width: 300px;
+  height: 0px;
+  height: 1px;
+  background-color: rgba(115, 115, 115, 1);
+}
+
+.inputs::placeholder {
+  color: rgb(105, 117, 162);
+}
+
+.inputs:focus {
+  outline: none;
+}
+
+.inputs + .contact-line {
+  background-color: rgba(115, 115, 115, 1);
+}
+
+.inputs:focus + .contact-line {
+  background-color: rgba(36, 53, 115, 1);
+}
+
+.inputs:not(:placeholder-shown) {
+  color: rgba(36, 53, 115, 1);
+}
+
+.inputs:focus::placeholder,
+.inputs:not(:placeholder-shown)::placeholder {
+  color: rgba(36, 53, 115, 1);
+}
+
+.error-message.error {
+  font-family: Inter;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: -0.2px;
+  text-align: left;
+  color: rgba(255, 86, 32, 1);
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+.contact-line.error {
+  width: calc(100% - 8px);
+  height: 1px;
+  background-color: rgba(255, 86, 32, 1);
+  margin-top: 4px;
+  margin-left: 4px;
+}

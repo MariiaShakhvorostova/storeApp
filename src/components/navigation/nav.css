@@ -1,0 +1,37 @@
+.navigation {
+  display: flex;
+  width: 993px;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 9px;
+  max-height: 50px;
+}
+
+.navigation a {
+  text-decoration: none;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+}
+
+.navigation a.active {
+  color: rgba(0, 174, 28, 1);
+}
+
+.navigation a:not(.active) {
+  color: rgba(36, 53, 115, 1);
+}
+
+.navigation span {
+  display: block;
+  width: 12px;
+  height: 12px;
+  background-image: url(/src/assets/img/cr-tree.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.navigation a:not(.active):hover {
+  text-decoration: underline;
+  color: rgba(36, 53, 115, 1);
+}

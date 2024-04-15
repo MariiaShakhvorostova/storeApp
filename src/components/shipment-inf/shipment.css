@@ -1,0 +1,64 @@
+.shipment-container {
+  height: 320px;
+  display: block;
+  gap: 50px;
+  align-items: center;
+  width: 960px;
+  border-radius: 8px;
+  opacity: 0px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.1);
+  background: rgba(255, 255, 255, 1);
+  margin-bottom: 40px;
+  padding-top: 20px;
+}
+
+.shipment-row {
+  display: flex;
+}
+
+.shipment-column {
+  width: 300px;
+}
+
+.zip {
+  width: 250px;
+  margin-top: 0px;
+}
+
+.heigh {
+  height: 64px;
+}
+
+.containers select {
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: -0.30000001192092896px;
+  text-align: left;
+  border: none;
+  width: 300px;
+  height: 40px;
+  background: transparent;
+  color: rgb(105, 117, 162);
+}
+
+.containers option {
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: -0.30000001192092896px;
+  text-align: left;
+  color: rgb(105, 117, 162);
+}
+
+.containers select:focus option {
+  color: rgba(36, 53, 115, 1);
+}
+
+.contact-line.zip {
+  width: 300px;
+  height: 1px;
+  background-color: rgba(115, 115, 115, 1);
+}
